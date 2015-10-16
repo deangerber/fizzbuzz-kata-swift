@@ -20,4 +20,8 @@ class FizzBuzzTests: XCTestCase {
   func test_given_a_number_devisible_by_5_prints_Buzz() {
     XCTAssertEqual(FizzBuzz.result(5), "Buzz")
   }
+
+  func test_given_a_number_devisible_by_3_and_5_prints_FizzBuzz() {
+    XCTAssertEqual(FizzBuzz.result(15), "FizzBuzz")
+  }
 }
