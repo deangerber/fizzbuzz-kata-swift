@@ -36,7 +36,7 @@ Buzz
 ... etc up to 100
 ```
 
-**stage 2 - new requirements
+**stage 2 - new requirements**
 
 1. A number is fizz if it is divisible by 3 or if it has a 3 in it
 2. A number is buzz if it is divisible by 5 or if it has a 5 in it
