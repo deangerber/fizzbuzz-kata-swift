@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		070D60F71BD172C300A98E39 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D60F61BD172C300A98E39 /* main.swift */; };
 		0761509A1BD17722008C6863 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 076150991BD17722008C6863 /* README.md */; settings = {ASSET_TAGS = (); }; };
+		076150A21BD17AE7008C6863 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076150A11BD17AE7008C6863 /* FizzBuzzTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +28,20 @@
 		070D60F31BD172C300A98E39 /* FizzBuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FizzBuzz; sourceTree = BUILT_PRODUCTS_DIR; };
 		070D60F61BD172C300A98E39 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		076150991BD17722008C6863 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0761509F1BD17AE7008C6863 /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		076150A11BD17AE7008C6863 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
+		076150A31BD17AE7008C6863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		070D60F01BD172C300A98E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0761509C1BD17AE7008C6863 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +56,7 @@
 			children = (
 				076150991BD17722008C6863 /* README.md */,
 				070D60F51BD172C300A98E39 /* FizzBuzz */,
+				076150A01BD17AE7008C6863 /* FizzBuzzTests */,
 				070D60F41BD172C300A98E39 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				070D60F31BD172C300A98E39 /* FizzBuzz */,
+				0761509F1BD17AE7008C6863 /* FizzBuzzTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +76,15 @@
 				070D60F61BD172C300A98E39 /* main.swift */,
 			);
 			path = FizzBuzz;
+			sourceTree = "<group>";
+		};
+		076150A01BD17AE7008C6863 /* FizzBuzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				076150A11BD17AE7008C6863 /* FizzBuzzTests.swift */,
+				076150A31BD17AE7008C6863 /* Info.plist */,
+			);
+			path = FizzBuzzTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +107,23 @@
 			productReference = 070D60F31BD172C300A98E39 /* FizzBuzz */;
 			productType = "com.apple.product-type.tool";
 		};
+		0761509E1BD17AE7008C6863 /* FizzBuzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076150A41BD17AE7008C6863 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */;
+			buildPhases = (
+				0761509B1BD17AE7008C6863 /* Sources */,
+				0761509C1BD17AE7008C6863 /* Frameworks */,
+				0761509D1BD17AE7008C6863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FizzBuzzTests;
+			productName = FizzBuzzTests;
+			productReference = 0761509F1BD17AE7008C6863 /* FizzBuzzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +134,9 @@
 				ORGANIZATIONNAME = deangerber;
 				TargetAttributes = {
 					070D60F21BD172C300A98E39 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0761509E1BD17AE7008C6863 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
 				};
@@ -112,9 +154,20 @@
 			projectRoot = "";
 			targets = (
 				070D60F21BD172C300A98E39 /* FizzBuzz */,
+				0761509E1BD17AE7008C6863 /* FizzBuzzTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0761509D1BD17AE7008C6863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		070D60EF1BD172C300A98E39 /* Sources */ = {
@@ -123,6 +176,14 @@
 			files = (
 				0761509A1BD17722008C6863 /* README.md in Sources */,
 				070D60F71BD172C300A98E39 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0761509B1BD17AE7008C6863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076150A21BD17AE7008C6863 /* FizzBuzzTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +282,28 @@
 			};
 			name = Release;
 		};
+		076150A51BD17AE7008C6863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FizzBuzzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deangerber.FizzBuzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		076150A61BD17AE7008C6863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FizzBuzzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deangerber.FizzBuzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -241,6 +324,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		076150A41BD17AE7008C6863 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076150A51BD17AE7008C6863 /* Debug */,
+				076150A61BD17AE7008C6863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
