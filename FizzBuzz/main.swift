@@ -9,5 +9,5 @@
 import Foundation
 
 for number in 1...100 {
-  print("\(number)")
+  print(FizzBuzz.result(number))
 }
