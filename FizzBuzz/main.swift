@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
+for number in 1...100 {
+  print("\(number)")
+}
