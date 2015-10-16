@@ -10,13 +10,15 @@ import Foundation
 
 class FizzBuzz {
   static func result(number: Int) -> String {
-    if number % 3 == 0 && number % 5 == 0 {
+    let result = (number % 3, number % 5)
+    switch result {
+    case (0, 0):
       return "FizzBuzz"
-    } else if number % 3 == 0 {
+    case (0, _):
       return "Fizz"
-    } else if number % 5 == 0 {
-        return "Buzz"
-    } else {
+    case (_, 0):
+      return "Buzz"
+    default:
       return String(number)
     }
   }
