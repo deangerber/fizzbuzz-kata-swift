@@ -10,6 +10,10 @@ import Foundation
 
 class FizzBuzz {
   static func result(number: Int) -> String {
-    return String(number)
+    if number % 3 == 0 {
+      return "Fizz"
+    } else {
+      return String(number)
+    }
   }
 }
