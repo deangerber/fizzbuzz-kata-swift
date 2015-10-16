@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		070D60F71BD172C300A98E39 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D60F61BD172C300A98E39 /* main.swift */; };
+		0761509A1BD17722008C6863 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 076150991BD17722008C6863 /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		070D60F31BD172C300A98E39 /* FizzBuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FizzBuzz; sourceTree = BUILT_PRODUCTS_DIR; };
 		070D60F61BD172C300A98E39 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		076150991BD17722008C6863 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		070D60EA1BD172C300A98E39 = {
 			isa = PBXGroup;
 			children = (
+				076150991BD17722008C6863 /* README.md */,
 				070D60F51BD172C300A98E39 /* FizzBuzz */,
 				070D60F41BD172C300A98E39 /* Products */,
 			);
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0761509A1BD17722008C6863 /* README.md in Sources */,
 				070D60F71BD172C300A98E39 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +240,7 @@
 				070D60FC1BD172C300A98E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
