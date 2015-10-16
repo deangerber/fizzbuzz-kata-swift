@@ -9,7 +9,7 @@
 import XCTest
 
 class FizzBuzzTests: XCTestCase {
-  func test_framework_functions_correctly() {
-    XCTAssertTrue(true)
+  func test_given_a_number_returns_the_number_as_string() {
+    XCTAssertEqual(FizzBuzz.result(1), "1")
   }
 }
